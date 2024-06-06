@@ -1,0 +1,90 @@
+body {
+  font-family: 'Roboto', Helvetica, sans-serif;
+  background-color: aquamarine; /* Changed to a lighter grey for better contrast */
+  color: black; /* Improved text color contrast */
+  margin: 0;
+  padding: 0;
+}
+
+h1{
+  text-align: center;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-family: 'Stick No Bills', 'Roboto', Helvetica, sans-serif;
+}
+
+.container {
+  max-width: 1080px;
+  margin: 0 auto;
+  padding: 0 1.5rem;
+}
+
+img {
+  width: 100%;
+}
+
+.main-nav ul {
+  list-style: none;
+  display: flex;
+  flex-wrap: wrap;
+  margin: 1rem;
+  padding: 1 rem;
+}
+
+.main-nav ul li {
+  flex: 1;
+  text-align: center;
+}
+
+.main-nav ul li a {
+  display: block;
+  color: rebeccapurple;
+  text-decoration: none;
+  font-size: 20px;
+}
+
+form input,
+form textarea {
+  display: block;
+  width: 100%;
+  margin-bottom: 1rem;
+  padding: .5rem 1rem;
+  border: 2px solid black;
+}
+
+form textarea {
+  min-height: 120px;
+  max-height: 150px;
+  height: 150px;
+  resize: none;
+}
+
+form button {
+  background: black;
+  color: bisque;
+  border: 2px solid pink;
+  padding: 1rem;
+  text-transform: uppercase;
+  cursor: pointer;
+}
+
+form button:hover {
+  background: coral; 
+  border-color: cornsilk;
+}
+
+.skip-link {
+  position: absolute;
+  top: -40px;
+  left: 0;
+  background: whitesmoke;
+  color: black;
+  padding: 8px;
+  z-index: 100;
+  transition: top 0.1s;
+}
+
+.skip-link:focus {
+  top: 0;
+}
